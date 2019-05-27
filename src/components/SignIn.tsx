@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Form, Input, Col, Row, message } from 'antd';
+import { Form, Input, Col, Row, message, Typography } from 'antd';
 import { WrappedFormUtils } from 'antd/lib/form/Form';
 import { Button } from 'antd';
 
@@ -7,7 +7,11 @@ interface IHelloProps {
   form: WrappedFormUtils;
 }
 
+// This component make sure that antd work correctly
 const Hello: React.FunctionComponent<IHelloProps> = props => {
+  React.useEffect(() => {
+    message.info('Hello there! It work !!!');
+  });
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     props.form.validateFields((err, value) => {
@@ -22,7 +26,8 @@ const Hello: React.FunctionComponent<IHelloProps> = props => {
   return (
     <Row type='flex' justify='center'>
       <Col lg='10' md='10' sm='18'>
-        <h1>Sign In Form</h1>
+        <Typography.Text type='secondary'>Sign In</Typography.Text>
+        {/* Component Form of Antd */}
         <Form autoComplete='off' onSubmit={handleSubmit}>
           {/* Input Email */}
           <Form.Item>
