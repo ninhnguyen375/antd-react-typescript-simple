@@ -9,9 +9,6 @@ interface IHelloProps {
 
 // This component make sure that antd work correctly
 const Hello: React.FunctionComponent<IHelloProps> = props => {
-  React.useEffect(() => {
-    message.info('Hello there! It work !!!');
-  });
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     props.form.validateFields((err, value) => {
@@ -26,7 +23,7 @@ const Hello: React.FunctionComponent<IHelloProps> = props => {
   return (
     <Row type='flex' justify='center'>
       <Col lg='10' md='10' sm='18'>
-        <Typography.Text type='secondary'>Sign In</Typography.Text>
+        <h1  style={{ color: 'gray' ,paddingTop: 50}}>Sign In</h1>
         {/* Component Form of Antd */}
         <Form autoComplete='off' onSubmit={handleSubmit}>
           {/* Input Email */}
