@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Form, Input, Col, Row, message, Typography } from 'antd';
+import { Form, Input, Col, Row, message } from 'antd';
 import { WrappedFormUtils } from 'antd/lib/form/Form';
 import { Button } from 'antd';
 
@@ -23,7 +23,7 @@ const Hello: React.FunctionComponent<IHelloProps> = props => {
   return (
     <Row type='flex' justify='center'>
       <Col lg='10' md='10' sm='18'>
-        <h1  style={{ color: 'gray' ,paddingTop: 50}}>Sign In</h1>
+        <h1 style={{ color: 'gray', paddingTop: 50 }}>Sign In</h1>
         {/* Component Form of Antd */}
         <Form autoComplete='off' onSubmit={handleSubmit}>
           {/* Input Email */}
