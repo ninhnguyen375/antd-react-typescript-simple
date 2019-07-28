@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.js": "https://ninhnguyen375.github.io/test-host-github/static/js/main.6701c0d2.chunk.js",
-    "main.js.map": "https://ninhnguyen375.github.io/test-host-github/static/js/main.6701c0d2.chunk.js.map",
-    "runtime~main.js": "https://ninhnguyen375.github.io/test-host-github/static/js/runtime~main.9c1d0b27.js",
-    "runtime~main.js.map": "https://ninhnguyen375.github.io/test-host-github/static/js/runtime~main.9c1d0b27.js.map",
-    "static/js/2.f1d152b3.chunk.js": "https://ninhnguyen375.github.io/test-host-github/static/js/2.f1d152b3.chunk.js",
-    "static/js/2.f1d152b3.chunk.js.map": "https://ninhnguyen375.github.io/test-host-github/static/js/2.f1d152b3.chunk.js.map",
-    "index.html": "https://ninhnguyen375.github.io/test-host-github/index.html",
-    "precache-manifest.b26d8586a292dfb6ad37e1f02377219d.js": "https://ninhnguyen375.github.io/test-host-github/precache-manifest.b26d8586a292dfb6ad37e1f02377219d.js",
-    "service-worker.js": "https://ninhnguyen375.github.io/test-host-github/service-worker.js"
+    "main.js": "/test-host-github/static/js/main.ac2cf8ba.chunk.js",
+    "main.js.map": "/test-host-github/static/js/main.ac2cf8ba.chunk.js.map",
+    "runtime~main.js": "/test-host-github/static/js/runtime~main.119dfba8.js",
+    "runtime~main.js.map": "/test-host-github/static/js/runtime~main.119dfba8.js.map",
+    "static/js/2.f1d152b3.chunk.js": "/test-host-github/static/js/2.f1d152b3.chunk.js",
+    "static/js/2.f1d152b3.chunk.js.map": "/test-host-github/static/js/2.f1d152b3.chunk.js.map",
+    "index.html": "/test-host-github/index.html",
+    "precache-manifest.f96a6e38603e9ca7533229a5bd9fc469.js": "/test-host-github/precache-manifest.f96a6e38603e9ca7533229a5bd9fc469.js",
+    "service-worker.js": "/test-host-github/service-worker.js"
   }
 }
